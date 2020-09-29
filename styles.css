@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    color: 	#696969;
+    color: 	#333333;
    
 }
 
@@ -17,6 +17,10 @@ header {
     justify-content: space-around;
     background: #403f48;
     color: #ccc;
+}
+
+h1{
+    border: ;
 }
 
 .logo {
@@ -135,7 +139,7 @@ hr
 
 #projects-grid{
 	display: grid;
-	grid-template-columns: auto auto auto;
+	grid-template-columns: auto auto;
 	column-gap: 30px;
 	grid-row-gap: 30px;
 	margin: auto 50px;
@@ -146,9 +150,9 @@ hr
 .project{
 	grid-column-end: span 1;
 	background: #596c68;
-	height: 200px;
+	height: 400px;
 	border-radius: 1%;
-	-webkit-box-shadow: 3px 4px 7px -1px rgba(0,0,0,0.75);
-	-moz-box-shadow: 3px 4px 7px -1px rgba(0,0,0,0.75);
-	box-shadow: 3px 4px 7px -1px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 3px 4px 7px -1px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 3px 4px 7px -1px rgba(0, 0, 0, 0.75);
+	box-shadow: 3px 4px 7px -1px rgba(0, 0, 0, 0.75);
 }
