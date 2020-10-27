@@ -137,13 +137,15 @@ hr
 	padding: 75px 15px 30px 15px;
 }
 
+
+
 #projects-grid{
 	display: grid;
-	grid-template-columns: auto auto;
+	grid-template-columns: auto;
 	column-gap: 30px;
 	grid-row-gap: 30px;
-	margin: auto 50px;
-
+	margin: 75px 50px auto 50px;
+    border-radius: 1% 0 0 1%;
 }
 
 
