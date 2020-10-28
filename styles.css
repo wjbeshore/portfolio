@@ -152,6 +152,13 @@ hr
     border-radius: 1% 0 0 1%;
 }
 
+footer {
+  text-align: center;
+  padding: 3px;
+  background: #403f48;
+  color: #ccc;
+}
+
 
 .project{
 	grid-column-end: span 1;
