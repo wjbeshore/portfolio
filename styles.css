@@ -19,9 +19,6 @@ header {
     color: #ccc;
 }
 
-h1{
-    border: ;
-}
 
 .logo {
     letter-spacing: 3px;
@@ -119,8 +116,13 @@ hr
 }
 
 .description{
-    width: 50%;
-    display: inline-block;
+    width: 40%;
+    height: 400px;
+    float: right;
+    display: inline;
+    color:  #ccc;
+    margin-top: 0px;
+    top: 0;
 }
 
 #about p {
@@ -161,7 +163,6 @@ footer {
 
 
 .project{
-	grid-column-end: span 1;
 	background: #596c68;
 	height: 400px;
 	border-radius: 1%;
